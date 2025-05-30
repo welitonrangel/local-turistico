@@ -27,7 +27,7 @@ Esta é uma página web responsiva com informações de um ponto turístico, des
 
 ## 📸 Prévia
 
-![preview](./assets/preview.png)
+![preview](./assets/Chapada_dos_Veadeiros.jpg)
 
 > Substitua este arquivo pela imagem da tela do seu projeto para exibir no GitHub
 
