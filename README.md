@@ -25,12 +25,6 @@ Esta é uma página web responsiva com informações de um ponto turístico, des
 - Google Fonts
 - Google Maps Embed
 
-## 📸 Prévia
-
-![preview](./assets/Chapada_dos_Veadeiros.jpg)
-
-> Substitua este arquivo pela imagem da tela do seu projeto para exibir no GitHub
-
 ## 🧭 Funcionalidades interativas
 
 - Alternância do botão de "Leia mais / menos"
