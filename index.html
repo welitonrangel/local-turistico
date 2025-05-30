@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Parque Nacional da Chapada dos Veadeiros</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,400;1,600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Open Sans', sans-serif;
+    }
+
+    body {
+      padding: 20px;
+      line-height: 1.6;
+      background-color: #f7f7f7;
+      color: #333;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 32px;
+    }
+
+    header h1 {
+      color: #e1624f;
+      font-size: 32px;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+
+    .divider {
+      width: 100%;
+      height: 1px;
+      background-color: #d9d9d9;
+      margin: 24px 0;
+    }
+
+    img.hero {
+      width: 100%;
+      height: 375px;
+      object-fit: cover;
+      border-radius: 28px;
+    }
+
+    .content p {
+      margin-top: 20px;
+    }
+
+    .more-text {
+      display: none;
+    }
+
+    ul {
+      margin-top: 20px;
+      padding-left: 20px;
+    }
+
+    ul li::marker {
+      color: #e1624f;
+    }
+
+    footer {
+      margin-top: 50px;
+      text-align: center;
+      font-size: 14px;
+      color: #999;
+    }
+
+    nav {
+      margin: 24px 0;
+      text-align: center;
+    }
+
+    nav a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: #e1624f;
+      font-weight: bold;
+    }
+
+    form {
+      margin-top: 36px;
+      background: #fff;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    form input, form textarea {
+      width: 100%;
+      margin-top: 10px;
+      padding: 10px;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+    }
+
+    form button {
+      margin-top: 12px;
+      background: #e1624f;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+
+    .carousel {
+      display: flex;
+      gap: 12px;
+      overflow-x: auto;
+      margin: 24px 0;
+    }
+
+    .carousel img {
+      height: 200px;
+      border-radius: 12px;
+      flex-shrink: 0;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1 id="inicio">Chapada dos Veadeiros</h1>
+  </header>
+
+  <nav>
+    <a href="#inicio">Início</a>
+    <a href="#galeria">Galeria</a>
+    <a href="#mapa">Mapa</a>
+    <a href="#contato">Contato</a>
+  </nav>
+
+  <img class="hero" src="Chapada_dos_Veadeiros.jpg" alt="Chapada dos Veadeiros">
+
+  <main class="content">
+    <p>
+      O Parque Nacional da Chapada dos Veadeiros é uma das áreas mais incríveis para quem ama natureza e aventura.
+      Localizado em Goiás, ele é considerado Patrimônio Natural da Humanidade pela UNESCO.
+    </p>
+
+    <div class="more-text">
+      <p>
+        Com trilhas de tirar o fôlego, cachoeiras deslumbrantes e uma energia mística que atrai turistas do mundo inteiro, o parque é um verdadeiro paraíso ecológico.
+        Ele abriga uma rica biodiversidade do cerrado brasileiro e formações rochosas com mais de 1 bilhão de anos.
+      </p>
+    </div>
+
+    <button onclick="toggleMore()">Leia mais</button>
+
+    <div class="divider"></div>
+
+    <h2>Atrações imperdíveis</h2>
+    <ul>
+      <li>Cachoeira de Santa Bárbara</li>
+      <li>Vale da Lua</li>
+      <li>Trilha dos Saltos</li>
+      <li>Jardim de Maytrea</li>
+      <li>Cristalina e a cultura local</li>
+    </ul>
+
+    <div class="divider" id="galeria"></div>
+
+    <h2>Galeria de imagens</h2>
+    <div class="carousel">
+      <img src="Cachoeira_1.jpg" alt="Cachoeira 1">
+      <img src="Vale_da_Lua.jpg" alt="Vale da Lua">
+      <img src="Jardim_de_Maytrea.jpg" alt="Jardim de Maytrea">
+      <img src="Cânions.jpg" alt="Cânions">
+      <img src="Paralelo_14.jpg" alt="Paralelo 14">
+    </div>
+
+    <div class="divider" id="mapa"></div>
+
+    <h2>Localização</h2>
+    <iframe 
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3978.516785251876!2d-47.67309808467984!3d-14.059708693602115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935e7c2b1e8e4a8d%3A0x1de7e598499edb39!2sParque%20Nacional%20da%20Chapada%20dos%20Veadeiros!5e0!3m2!1spt-BR!2sbr!4v1700000000000"
+      width="100%" height="300" style="border:0; border-radius:12px; margin-top:20px;" allowfullscreen="" loading="lazy"></iframe>
+
+    <div class="divider" id="contato"></div>
+
+    <h2>Fale com a gente</h2>
+    <form>
+      <label for="nome">Seu nome:</label>
+      <input type="text" id="nome" required>
+
+      <label for="mensagem">Sua mensagem:</label>
+      <textarea id="mensagem" rows="4" required></textarea>
+
+      <button type="submit">Enviar</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Descubra a Chapada</p>
+  </footer>
+
+  <script>
+    function toggleMore() {
+      const text = document.querySelector('.more-text');
+      const btn = document.querySelector('button');
+      if (text.style.display === 'block') {
+        text.style.display = 'none';
+        btn.textContent = 'Leia mais';
+      } else {
+        text.style.display = 'block';
+        btn.textContent = 'Leia menos';
+      }
+    }
+
+    document.querySelectorAll('nav a').forEach(link => {
+      link.addEventListener('click', function (e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+        });
+      });
+    });
+  </script>
+</body>
+
+</html>
