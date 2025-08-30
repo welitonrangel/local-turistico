@@ -37,4 +37,8 @@ Esta é uma página web responsiva com informações de um ponto turístico, des
 
 1. Clone este repositório:
 ```bash
-git clone https://github.com/seu-usuario/local-turistico.git
+git clone https://github.com/welitonrangel/local-turistico.git
+
+## 👨‍💻 Autor
+
+Feito por **Weliton Rangel**.
